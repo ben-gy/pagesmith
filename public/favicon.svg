@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#4f46e5" />
+  <!-- back page, offset -->
+  <rect x="17" y="14" width="24" height="32" rx="3" fill="#c7d2fe" transform="rotate(-8 29 30)" />
+  <!-- front page -->
+  <g transform="rotate(6 34 32)">
+    <rect x="23" y="18" width="24" height="32" rx="3" fill="#ffffff" />
+    <rect x="27" y="24" width="16" height="2.6" rx="1.3" fill="#a5b4fc" />
+    <rect x="27" y="30" width="16" height="2.6" rx="1.3" fill="#a5b4fc" />
+    <rect x="27" y="36" width="11" height="2.6" rx="1.3" fill="#a5b4fc" />
+  </g>
+</svg>
