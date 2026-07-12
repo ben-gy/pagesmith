@@ -667,7 +667,7 @@ const SKELETON = `
   </main>
 
   <footer class="site-footer">
-    <span>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a> · <a href="https://hub.benrichardson.dev" target="_blank" rel="noopener">more tools &amp; sites</a></span>
+    <span>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a> · <a href="https://sites.benrichardson.dev" target="_blank" rel="noopener">more tools &amp; sites</a></span>
     <span class="footer-dot">·</span>
     <span>Everything happens on your device</span>
   </footer>
