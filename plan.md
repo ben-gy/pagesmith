@@ -57,7 +57,7 @@ Anyone at a laptop who just needs to fix up a PDF and is uneasy about uploading 
 ## Privacy & Trust Model
 **Protected**
 - Every PDF is read with `FileReader`/`ArrayBuffer` and processed by pdf.js and pdf-lib **locally**. No page, no thumbnail, no byte is uploaded.
-- No analytics, no cookies, no third-party fonts, no telemetry. CSP forbids all network egress (`connect-src 'self'`).
+- No cookies, no fingerprinting, no third-party fonts. Anonymous, cookie-less page-view counts via Cloudflare Web Analytics — no personal data, no cross-site tracking. CSP forbids all network egress (`connect-src 'self'`).
 
 **Not protected**
 - Page-level operations only — deleting a page removes the whole page, it does not scrub text hidden elsewhere in the document, and it does not strip document metadata beyond what pdf-lib rewrites on save. (Pointed at `metascrub` for image EXIF; a note in the Threat Model modal.)

@@ -48,7 +48,7 @@ Two workers are involved: pdf.js runs its own parsing/render worker to draw thum
 
 **Protected**
 - PDFs are read and rewritten entirely on-device. No page, thumbnail or byte is uploaded.
-- No analytics, no cookies, no third-party fonts, no trackers.
+- No cookies, no fingerprinting, no third-party fonts. Anonymous, cookie-less page-view counts via Cloudflare Web Analytics — no personal data, no cross-site tracking.
 - A strict Content-Security-Policy (`default-src 'self'`, `connect-src 'self'`) means the page cannot open a network connection anywhere — your files can't be exfiltrated even by accident.
 - After the first visit a service worker lets Pagesmith run fully offline.
 
@@ -70,7 +70,7 @@ Two workers are involved: pdf.js runs its own parsing/render worker to draw thum
 - Vitest for unit tests
 - GitHub Pages for hosting, deployed via GitHub Actions
 
-No runtime dependencies beyond pdf-lib and pdf.js. No analytics, no cookies, no third-party fonts, no telemetry.
+No runtime dependencies beyond pdf-lib and pdf.js. No cookies, no fingerprinting, no third-party fonts. Anonymous, cookie-less page-view counts via Cloudflare Web Analytics — no personal data, no cross-site tracking.
 
 ## local development
 

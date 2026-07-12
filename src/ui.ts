@@ -667,7 +667,7 @@ const SKELETON = `
   </main>
 
   <footer class="site-footer">
-    <span>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a></span>
+    <span>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a> · <a href="https://hub.benrichardson.dev" target="_blank" rel="noopener">more tools &amp; sites</a></span>
     <span class="footer-dot">·</span>
     <span>Everything happens on your device</span>
   </footer>
@@ -699,7 +699,7 @@ const THREAT_MODAL = `
   <h3 class="tm-good">Protected</h3>
   <ul>
     <li>Your PDFs are read and rewritten entirely ${gloss('client-side', 'on your device')}. No page, thumbnail or byte is uploaded.</li>
-    <li>No analytics, no cookies, no third-party fonts, no trackers.</li>
+    <li>No cookies, no fingerprinting, no third-party fonts. Anonymous, cookie-less page-view counts via Cloudflare Web Analytics — no personal data, no cross-site tracking.</li>
     <li>A ${gloss('CSP')} restricts the app to <code>self</code> only — it cannot open a network connection to anywhere, so your files can't be exfiltrated even by accident.</li>
     <li>After the first visit a ${gloss('service worker')} lets Pagesmith run fully offline. Pull your network cable — it still works.</li>
   </ul>
