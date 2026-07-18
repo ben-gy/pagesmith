@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pagesmith.benrichardson.dev/sitemap.xml
